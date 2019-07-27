@@ -6,7 +6,7 @@ Most social media systems are governed and owned by one body, this is why twitte
 Users or most centralized social media today are not in control of their own data and cannot decide who gets their data and who doesn’t, so daily and per second data analysis are done with these information about users and these users are not paid for these, technically we’ll say we have been used right? Yeah very true.
 This is why Monkey is here, to also use every user but this time keeping them rewarded for access to their data. 
 
-### What problem are you solving exactly?
+### What problem are we solving?
 
 Every organization wants to know the reaction of their customers to their goods and services, in the same way every customer wants the manufacturer of the good or service they just consumed to know what they feel about it.
 We are building a decentralized social media system that takes out the middle men who enrich their own pockets by gathering this data and selling to these organizations and builds a direct link between the organizations and the public at the same time allowing regular social activities to keep the system alive after reviews.
@@ -20,14 +20,14 @@ The major stake holders though are the organizations that need the data for one 
 Well since technology has made it easier, the stake holders will be playing the role of miners, they’ll be in charge of producing Monkey coin which will in turn be distributed to the users in a percentage based curation system.
 All that is required are smart phones for the users and mining equipment for the major stakeholders.
 
-### How is this addressing their need?
+### How is this addressing the need?
 Providing the organizations the data they need to improve their production from personality traits to the least important and giving the public a chance to be paid from usage of their data and carrying out regular social media activities.
 Every social media now has influencers who only get paid to advertise which is not meant to be so.
 
-### Are you planning to carry out a token generation event or ICO?
+### Will it be a token generation event or ICO?
 ICO
 
-### what is your token about?
+### what is your token this about?
 The token generated will be used as stake, voting right, toll, function, currency, earnings and value exchange.
 
 ### Is it a security or a utility token?
@@ -56,3 +56,7 @@ Digital Identity - Hold information of users and control peer to peer transactio
 
 ### What components can be automated in the long run?
 Gaming, HealthCare, Education, sales of goods and services making use of the token for transaction and transaction charges.
+
+# What will Monkey Look like?
+Here's a peak sneak at what the project will look like
+https://imgur.com/5PDNBwf
