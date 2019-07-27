@@ -58,5 +58,8 @@ Digital Identity - Hold information of users and control peer to peer transactio
 Gaming, HealthCare, Education, sales of goods and services making use of the token for transaction and transaction charges.
 
 # What will Monkey Look like?
+
+
 Here's a peak sneak at what the project will look like
+
 https://imgur.com/5PDNBwf
