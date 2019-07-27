@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="488.0" prefWidth="863.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Home.HomePage.HomePageController">
+   <children>
+      <HBox alignment="CENTER_LEFT" prefHeight="79.0" prefWidth="863.0" style="-fx-background-color: #5EACC9;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <HBox alignment="TOP_CENTER" prefHeight="79.0" prefWidth="250.0">
+               <children>
+                  <ImageView fitHeight="72.0" fitWidth="77.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/icons8_user_100px.png" />
+                     </image>
+                  </ImageView>
+                  <VBox alignment="CENTER_LEFT" prefHeight="79.0" prefWidth="182.0" spacing="10.0">
+                     <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="\@Samtola1">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Text>
+                        <HBox spacing="10.0">
+                           <children>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Following" />
+                              <Text layoutX="10.0" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text="244">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Text>
+                              <Separator orientation="VERTICAL" prefHeight="0.0" prefWidth="6.0" />
+                              <Text layoutX="62.0" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Followers" />
+                              <Text layoutX="82.0" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text="700">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Text>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_RIGHT" prefHeight="79.0" prefWidth="592.0" HBox.hgrow="ALWAYS">
+               <padding>
+                  <Insets right="10.0" />
+               </padding>
+            </HBox>
+         </children>
+         <padding>
+            <Insets left="10.0" />
+         </padding>
+      </HBox>
+      <HBox layoutX="89.0" layoutY="93.0" prefHeight="393.0" prefWidth="774.0" style="-fx-background-color: white;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="89.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="95.0">
+         <children>
+            <VBox spacing="10.0" style="-fx-background-color: #5EACC9;" HBox.hgrow="ALWAYS">
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+               <children>
+                  <HBox prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <VBox alignment="CENTER" prefHeight="100.0" prefWidth="111.0">
+                           <children>
+                              <ImageView fitHeight="72.0" fitWidth="77.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../Images/icons8_user_100px.png" />
+                                 </image>
+                              </ImageView>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="\@haejin">
+                                 <font>
+                                    <Font size="16.0" />
+                                 </font>
+                              </Text>
+                           </children>
+                        </VBox>
+                        <VBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="413.0">
+                           <children>
+                              <Text fill="ORANGE" strokeType="OUTSIDE" strokeWidth="0.0" text="Review">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font></Text>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Tammy's Restaurant Burgers are bad and don't have enough beef in them,">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Text>
+                              <Text layoutX="10.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="I'll recommend more beef for the beef burgers">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Text>
+                              <HBox alignment="CENTER" prefHeight="28.0" prefWidth="459.0" spacing="10.0">
+                                 <children>
+                                    <ImageView fx:id="comment" fitHeight="27.0" fitWidth="56.0" layoutX="10.0" layoutY="10.0" onMouseClicked="#gocomment" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../Images/icons8_comments_80px.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Text strokeType="OUTSIDE" strokeWidth="0.0" text="244">
+                                       <font>
+                                          <Font name="System Bold" size="12.0" />
+                                       </font>
+                                    </Text>
+                                    <Separator orientation="VERTICAL" prefHeight="0.0" prefWidth="8.0" />
+                                    <ImageView fitHeight="27.0" fitWidth="56.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../Images/icons8_refresh_30px.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Text layoutX="193.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" text="244">
+                                       <font>
+                                          <Font name="System Bold" size="12.0" />
+                                       </font>
+                                    </Text>
+                                    <Separator layoutX="142.0" layoutY="10.0" orientation="VERTICAL" prefHeight="0.0" prefWidth="8.0" />
+                                    <ImageView fitHeight="27.0" fitWidth="56.0" layoutX="10.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../Images/icons8_like_96px.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Text layoutX="246.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" text="244">
+                                       <font>
+                                          <Font name="System Bold" size="12.0" />
+                                       </font>
+                                    </Text>
+                                    <Separator layoutX="219.0" layoutY="10.0" orientation="VERTICAL" prefHeight="0.0" prefWidth="8.0" />
+                                    <ImageView fitHeight="27.0" fitWidth="56.0" layoutX="64.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../Images/monkey.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Text layoutX="213.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="20.321">
+                                       <font>
+                                          <Font name="System Bold" size="12.0" />
+                                       </font>
+                                    </Text>
+                                    <Separator layoutX="296.0" layoutY="10.0" orientation="VERTICAL" prefHeight="0.0" prefWidth="8.0" />
+                                    <ImageView fitHeight="27.0" fitWidth="56.0" layoutX="305.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../Images/icons8_share_52px.png" />
+                                       </image>
+                                    </ImageView>
+                                 </children>
+                              </HBox>
+                           </children>
+                        </VBox>
+                     </children>
+                  </HBox>
+                  <HBox layoutX="20.0" layoutY="20.0" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <VBox alignment="CENTER" prefHeight="100.0" prefWidth="111.0">
+                           <children>
+                              <ImageView fitHeight="72.0" fitWidth="77.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../Images/icons8_user_100px.png" />
+                                 </image>
+                              </ImageView>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="\@berniesanders">
+                                 <font>
+                                    <Font size="16.0" />
+                                 </font>
+                              </Text>
+                           </children>
+                        </VBox>
+                        <VBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="413.0">
+                           <children>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Tammy's Restaurant Burgers are bad and don't have enough beef in them,">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Text>
+                              <Text layoutX="10.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="I'll recommend more beef for the beef burgers">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Text>
+                              <HBox alignment="CENTER" prefHeight="28.0" prefWidth="459.0" spacing="10.0">
+                                 <children>
+                                    <ImageView fitHeight="27.0" fitWidth="56.0" layoutX="10.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../Images/icons8_comments_80px.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Text strokeType="OUTSIDE" strokeWidth="0.0" text="244">
+                                       <font>
+                                          <Font name="System Bold" size="12.0" />
+                                       </font>
+                                    </Text>
+                                    <Separator orientation="VERTICAL" prefHeight="0.0" prefWidth="8.0" />
+                                    <ImageView fitHeight="27.0" fitWidth="56.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../Images/icons8_refresh_30px.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Text layoutX="193.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" text="244">
+                                       <font>
+                                          <Font name="System Bold" size="12.0" />
+                                       </font>
+                                    </Text>
+                                    <Separator layoutX="142.0" layoutY="10.0" orientation="VERTICAL" prefHeight="0.0" prefWidth="8.0" />
+                                    <ImageView fitHeight="27.0" fitWidth="56.0" layoutX="10.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../Images/icons8_like_96px.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Text layoutX="246.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" text="244">
+                                       <font>
+                                          <Font name="System Bold" size="12.0" />
+                                       </font>
+                                    </Text>
+                                    <Separator layoutX="219.0" layoutY="10.0" orientation="VERTICAL" prefHeight="0.0" prefWidth="8.0" />
+                                    <ImageView fitHeight="27.0" fitWidth="56.0" layoutX="64.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../Images/monkey.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Text layoutX="213.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="20.321">
+                                       <font>
+                                          <Font name="System Bold" size="12.0" />
+                                       </font>
+                                    </Text>
+                                    <Separator layoutX="296.0" layoutY="10.0" orientation="VERTICAL" prefHeight="0.0" prefWidth="8.0" />
+                                    <ImageView fitHeight="27.0" fitWidth="56.0" layoutX="305.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../Images/icons8_share_52px.png" />
+                                       </image>
+                                    </ImageView>
+                                 </children>
+                              </HBox>
+                           </children>
+                        </VBox>
+                     </children>
+                  </HBox>
+                  <HBox layoutX="20.0" layoutY="130.0" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <VBox alignment="CENTER" prefHeight="100.0" prefWidth="111.0">
+                           <children>
+                              <ImageView fitHeight="72.0" fitWidth="77.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../Images/icons8_user_100px.png" />
+                                 </image>
+                              </ImageView>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="\@bookoons">
+                                 <font>
+                                    <Font size="16.0" />
+                                 </font>
+                              </Text>
+                           </children>
+                        </VBox>
+                        <VBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="413.0">
+                           <children>
+                              <Text fill="ORANGE" strokeType="OUTSIDE" strokeWidth="0.0" text="Review">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Text>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Tammy's Restaurant Burgers are bad and don't have enough beef in them,">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Text>
+                              <Text layoutX="10.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="I'll recommend more beef for the beef burgers">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Text>
+                              <HBox alignment="CENTER" prefHeight="28.0" prefWidth="459.0" spacing="10.0">
+                                 <children>
+                                    <ImageView fitHeight="27.0" fitWidth="56.0" layoutX="10.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../Images/icons8_comments_80px.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Text strokeType="OUTSIDE" strokeWidth="0.0" text="5">
+                                       <font>
+                                          <Font name="System Bold" size="12.0" />
+                                       </font>
+                                    </Text>
+                                    <Separator orientation="VERTICAL" prefHeight="0.0" prefWidth="8.0" />
+                                    <ImageView fitHeight="27.0" fitWidth="56.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../Images/icons8_refresh_30px.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Text layoutX="193.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" text="7">
+                                       <font>
+                                          <Font name="System Bold" size="12.0" />
+                                       </font>
+                                    </Text>
+                                    <Separator layoutX="142.0" layoutY="10.0" orientation="VERTICAL" prefHeight="0.0" prefWidth="8.0" />
+                                    <ImageView fitHeight="27.0" fitWidth="56.0" layoutX="10.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../Images/icons8_like_96px.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Text layoutX="246.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" text="16">
+                                       <font>
+                                          <Font name="System Bold" size="12.0" />
+                                       </font>
+                                    </Text>
+                                    <Separator layoutX="219.0" layoutY="10.0" orientation="VERTICAL" prefHeight="0.0" prefWidth="8.0" />
+                                    <ImageView fitHeight="27.0" fitWidth="56.0" layoutX="64.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../Images/monkey.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Text layoutX="213.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="10.341">
+                                       <font>
+                                          <Font name="System Bold" size="12.0" />
+                                       </font>
+                                    </Text>
+                                    <Separator layoutX="296.0" layoutY="10.0" orientation="VERTICAL" prefHeight="0.0" prefWidth="8.0" />
+                                    <ImageView fitHeight="27.0" fitWidth="56.0" layoutX="305.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../Images/icons8_share_52px.png" />
+                                       </image>
+                                    </ImageView>
+                                 </children>
+                              </HBox>
+                           </children>
+                        </VBox>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+      <VBox alignment="CENTER" layoutY="79.0" prefHeight="409.0" prefWidth="50.0" spacing="10.0" style="-fx-background-color: white;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="79.0">
+         <children>
+            <ImageView fx:id="newpost" fitHeight="67.0" fitWidth="85.0" onMouseClicked="#gonewpost" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/icons8_edit_96px_1.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="homepage" fitHeight="72.0" fitWidth="77.0" onMouseClicked="#gohomepage" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/icons8_treehouse_96px.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="notifications" fitHeight="72.0" fitWidth="77.0" layoutX="10.0" layoutY="179.0" onMouseClicked="#gonotification" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/icons8_bell_96px.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="messages" fitHeight="72.0" fitWidth="77.0" layoutX="10.0" layoutY="215.0" onMouseClicked="#gomessages" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/icons8_mailbox_with_letter_128px.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="wallet" fitHeight="72.0" fitWidth="77.0" layoutX="10.0" layoutY="251.0" onMouseClicked="#gowallet" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/icons8_wallet_100px.png" />
+               </image>
+            </ImageView>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

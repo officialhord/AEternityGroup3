@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="AEternityteam3.jnlp">
+  <information>
+    <title>Monkey Desktop</title>
+    <vendor>Unknown</vendor>
+    <description>MonkeyDesktop</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="AEternityteam3.jar" size="209875" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="600" height="400" main-class="Main"  name="MonkeyDesktop" />
+  <update check="background"/>
+</jnlp>

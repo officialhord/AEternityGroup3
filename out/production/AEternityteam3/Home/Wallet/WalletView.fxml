@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="488.0" prefWidth="863.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Home.Wallet.WalletViewController">
+   <children>
+      <HBox alignment="CENTER_LEFT" prefHeight="79.0" prefWidth="863.0" style="-fx-background-color: #5EACC9;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <HBox alignment="TOP_CENTER" prefHeight="79.0" prefWidth="250.0">
+               <children>
+                  <ImageView fitHeight="72.0" fitWidth="77.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/icons8_user_100px.png" />
+                     </image>
+                  </ImageView>
+                  <VBox alignment="CENTER_LEFT" prefHeight="79.0" prefWidth="182.0" spacing="10.0">
+                     <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="\@Samtola1">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Text>
+                        <HBox spacing="10.0">
+                           <children>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Following" />
+                              <Text layoutX="10.0" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text="244">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Text>
+                              <Separator orientation="VERTICAL" prefHeight="0.0" prefWidth="6.0" />
+                              <Text layoutX="62.0" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Followers" />
+                              <Text layoutX="82.0" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text="700">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Text>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_RIGHT" prefHeight="79.0" prefWidth="592.0" HBox.hgrow="ALWAYS">
+               <children>
+                  <ImageView fitHeight="72.0" fitWidth="77.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/icons8_wallet_100px.png" />
+                     </image>
+                  </ImageView>
+               </children>
+               <padding>
+                  <Insets right="10.0" />
+               </padding>
+            </HBox>
+         </children>
+         <padding>
+            <Insets left="10.0" />
+         </padding>
+      </HBox>
+      <HBox layoutX="89.0" layoutY="93.0" prefHeight="393.0" prefWidth="774.0" style="-fx-background-color: white;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="89.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="95.0">
+         <children>
+            <VBox spacing="10.0" HBox.hgrow="ALWAYS">
+               <children>
+                  <Text layoutX="10.0" layoutY="206.0" strokeType="OUTSIDE" strokeWidth="0.0" text="   Wallet Information">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Text>
+                  <HBox alignment="CENTER" prefHeight="50.0" prefWidth="863.0" spacing="10.0">
+                     <children>
+                        <Button mnemonicParsing="false" text="Transfer" />
+                        <Button layoutX="416.0" layoutY="12.0" mnemonicParsing="false" text="Buy Mokey Power" />
+                        <Button layoutX="416.0" layoutY="12.0" mnemonicParsing="false" text="Power Down" />
+                     </children>
+                  </HBox>
+                  <VBox alignment="CENTER_LEFT" prefHeight="171.0" prefWidth="778.0" VBox.vgrow="ALWAYS">
+                     <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Monkey">
+                           <font>
+                              <Font name="System Bold" size="24.0" />
+                           </font>
+                        </Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Available amount of withdrawable monkey">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="20.0" layoutY="91.0" strokeType="OUTSIDE" strokeWidth="0.0" text="This can be transfered to another user or added to the monkey power">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Text>
+                        <Separator prefHeight="27.0" prefWidth="758.0" />
+                        <Text layoutX="10.0" layoutY="101.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Monkey Power">
+                           <font>
+                              <Font name="System Bold" size="24.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="20.0" layoutY="102.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Monkey power available for curation and transactions">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="20.0" layoutY="152.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Withdrawable within 10 weeks period">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Text>
+                     </children>
+                     <padding>
+                        <Insets left="10.0" right="10.0" />
+                     </padding>
+                  </VBox>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="  Preivous Transactions">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Text>
+                  <VBox layoutX="10.0" layoutY="10.0" prefHeight="156.0" prefWidth="863.0" VBox.vgrow="ALWAYS">
+                     <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Recieved 24.5 Monkey from @77jhiuwed">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="20.0" layoutY="92.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Post Payout 2 Monkey 0.5 Monkey Power">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="20.0" layoutY="82.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Recieved 0.5 Monkey from @yurjd">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="20.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Post Payout 7 Monkey 3 Monkey Power">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="20.0" layoutY="95.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Post Payout 10 Monkey 5 Monkey Power">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="20.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Recieved 40 Monkey from @berniesanders">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Text>
+                     </children>
+                     <padding>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </padding></VBox>
+               </children>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </VBox>
+         </children>
+      </HBox>
+      <VBox alignment="CENTER" layoutY="79.0" prefHeight="409.0" prefWidth="50.0" spacing="10.0" style="-fx-background-color: white;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="79.0">
+         <children>
+            <ImageView fx:id="home" fitHeight="72.0" fitWidth="77.0" onMouseClicked="#gohome" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/icons8_treehouse_96px.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="72.0" fitWidth="77.0" layoutX="10.0" layoutY="179.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/icons8_bell_96px.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="72.0" fitWidth="77.0" layoutX="10.0" layoutY="215.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/icons8_mailbox_with_letter_128px.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="72.0" fitWidth="77.0" layoutX="10.0" layoutY="251.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/icons8_wallet_100px.png" />
+               </image>
+            </ImageView>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
